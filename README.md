@@ -99,21 +99,3 @@ The following npm packages are required for this project:
 ## License
 
 This project is licensed under the ISC License.
-
-## Author
-
-Your Name Here
-```
-
-### Key sections:
-1. **Project Overview**: A brief description of what the project does.
-2. **Features**: A list of functionalities your project offers.
-3. **Tech Stack**: The technologies used in the project.
-4. **Installation**: Step-by-step guide for setting up the project.
-5. **Running the Project**: Commands to run the project.
-6. **API Endpoints**: Information about API routes (you can expand on this depending on your actual API).
-7. **Dependencies**: A list of dependencies with a brief explanation.
-8. **License**: Information about the project’s licensing.
-9. **Author**: Your name or the team responsible for the project.
-
-You can fill in any missing information (like API routes, or author details) based on your actual project.
