@@ -9,7 +9,7 @@ const cors = require('cors');
 
 
 const corsOptions = {
-    origin: 'https://user-list-crud-opration.vercel.app/', // Replace with your frontend URL
+    origin: 'https://user-list-crud-opration-git-main-erabhishekjaiswals-projects.vercel.app/' || 'https://user-list-crud-opration.vercel.app/', // Replace with your frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
 };
