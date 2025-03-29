@@ -7,13 +7,13 @@ const authRouter = require('./routes/auth');
 const User = require('./routes/users');
 const cors = require('cors');
 
-
-const corsOptions = {
-    origin: 'https://user-list-crud-opration-git-main-erabhishekjaiswals-projects.vercel.app/' || 'http://localhost:5173/' || 'https://user-list-crud-opration-8nv0ev3wg-erabhishekjaiswals-projects.vercel.app/', // Replace with your frontend URL
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    credentials: true,
-};
-app.use(cors(corsOptions));
+app.use(cors());
+// const corsOptions = {
+//     origin: 'https://user-list-crud-opration-git-main-erabhishekjaiswals-projects.vercel.app/' || 'http://localhost:5173/' || 'https://user-list-crud-opration-8nv0ev3wg-erabhishekjaiswals-projects.vercel.app/', // Replace with your frontend URL
+//     methods: ['GET', 'POST', 'PUT', 'DELETE'],
+//     credentials: true,
+// };
+// app.use(cors(corsOptions));
 
 // const mongoose = require('mongoose');
 // const mongoURL = 'mongodb+srv://ironman:Iron42@cluster0.gb5hi4h.mongodb.net/';
